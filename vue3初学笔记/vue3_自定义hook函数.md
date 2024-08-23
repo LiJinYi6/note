@@ -21,7 +21,7 @@ export default{
         // })
         // onBeforeUnmout(){
         //     window.removeEventListener('click',savePoint)
-        // }
+        // }  
         return{point}
     }
 }
