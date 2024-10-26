@@ -1,0 +1,118 @@
+<html>
+  <head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>i5ting_ztree_toc:npm</title>
+		<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+	  <style>
+		pre {
+		    counter-reset: line-numbering;
+		    border: solid 1px #d9d9d9;
+		    border-radius: 0;
+		    background: #fff;
+		    padding: 0;
+		    line-height: 23px;
+		    margin-bottom: 30px;
+		    white-space: pre;
+		    overflow-x: auto;
+		    word-break: inherit;
+		    word-wrap: inherit;
+		}
+
+		pre a::before {
+		  content: counter(line-numbering);
+		  counter-increment: line-numbering;
+		  padding-right: 1em; /* space after numbers */
+		  width: 25px;
+		  text-align: right;
+		  opacity: 0.7;
+		  display: inline-block;
+		  color: #aaa;
+		  background: #eee;
+		  margin-right: 16px;
+		  padding: 2px 10px;
+		  font-size: 13px;
+		  -webkit-touch-callout: none;
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
+
+		pre a:first-of-type::before {
+		  padding-top: 10px;
+		}
+
+		pre a:last-of-type::before {
+		  padding-bottom: 10px;
+		}
+
+		pre a:only-of-type::before {
+		  padding: 10px;
+		}
+
+		.highlight { background-color: #ffffcc } /* RIGHT */
+		</style>
+  </head>
+  <body>
+	  <div>
+				<div style='width:25%;'>
+						<ul id="tree" class="ztree" style='width:100%'>
+
+						</ul>
+				</div>
+        <div id='readme' style='width:70%;margin-left:20%;'>
+          	<article class='markdown-body'>
+            	<h1 id="npm-">npm与包</h1>
+<p>第三方模块与包是同一个概念，<br>不同与内置模块和自定义模块<br>包由第三方开发，免费使用  </p>
+<h2 id="-">为啥需要包</h2>
+<p><img src="image-8.png" alt="alt text">、
+包是用内置模块封装出来的，提高开发效率。</p>
+<h2 id="-">下载来源</h2>
+<p><img src="image-10.png" alt="alt text"></p>
+<h2 id="-">下载包</h2>
+<p>通过 npm包管理工具，安装nodejs时就安好了npm 包管理工具了。</p>
+<h2 id="npm-">npm常用包</h2>
+<h2 id="-">包的版本号</h2>
+<p>点分十进制<br>第一位数字，底层重构
+<img src="image-11.png" alt="alt text"></p>
+<h2 id="-">包管理配置文件</h2>
+<p>package.json
+<img src="image-12.png" alt="alt text"></p>
+<h3 id="-">多人协作问题</h3>
+<p><img src="image-13.png" alt="alt text">
+新建一个package.json
+<img src="image-14.png" alt="alt text">
+快速创建package.json文件  </p>
+<blockquote>
+<p>该命令智能在英文文件中执行</p>
+</blockquote>
+<h3 id="-">一次性安装所有的包</h3>
+<p>npm install 会读取package.js文件中的dependences节点</p>
+<h3 id="-">卸载包</h3>
+<p>npm uninstall</p>
+<p>记录到devDependencies npm i 包名 -记录到D</p>
+
+          	</article>
+        </div>
+		</div>
+  </body>
+</html>
+<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+<script type="text/javascript" src="toc_conf.js"></script>
+
+<SCRIPT type="text/javascript" >
+<!--
+$(document).ready(function(){
+    var css_conf = eval(markdown_panel_style);
+    $('#readme').css(css_conf)
+    
+    var conf = eval(jquery_ztree_toc_opts);
+		$('#tree').ztree_toc(conf);
+});
+//-->
+</SCRIPT>

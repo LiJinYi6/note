@@ -31,3 +31,29 @@ npm install 会读取package.js文件中的dependences节点
 
 ### 卸载包 
 npm uninstall
+
+这种方式是安装在开发环境下而上线后的环境就没有该包  
+记录到devDependencies npm i 包名 -记录D   
+![alt text](image-15.png)
+
+
+### 解决npm下包速度慢的问题，因为是国外的服务器
+1. 安装npm镜像服务器，同步以及提供下包的服务
+2. npm config get registry检查npm下包地址
+3. npm config set registry=https://registry.npm.taobao.org/
+4. 安装工具nrm
+5. nrm ls，查看当前可用的所有可用的镜像源
+    
+## 包的分类
+![alt text](image-16.png)
+开发类包 -D  
+核心依赖包 
+
+全局包 -g,会被安装到本机的node目录下的modules_node
+
+## 一些包
+i5ting_toc，可以把md文档给转为html页面的工具  
+## 规范的包结构
+![alt text](image-17.png)
+
+## 开发属于自己的包
