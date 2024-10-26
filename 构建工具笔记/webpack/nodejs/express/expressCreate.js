@@ -3,7 +3,7 @@ const app=express();
 app.listen(80,()=>{
     console.log("express running at")
 })
-//get请求
+//get请求事件，同时也是路由
 app.get('/index',function(req,res){
     console.log("请求地址为"+req.url)
     res.setHeader('Content-Type',"text/html; charset=utf-8")
