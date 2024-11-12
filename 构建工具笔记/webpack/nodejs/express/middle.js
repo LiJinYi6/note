@@ -8,7 +8,7 @@ const fc=function(req,res,next){
 app.use(express.static('public'))
 app.use(fc)
 //多次调用app.use可以注册多个中间件  
-//HEL
+//HELs
 app.get('/home',(req,res)=>{
     throw new Error("错误")
     res.send("hello")
