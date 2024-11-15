@@ -10,7 +10,7 @@ module.exports.sayhello=function(){
 }
 
 //后面的会覆盖前面的
-module.exports={
+module.exports={  
     name:'he',
     heel(){
     console.log('sdfkl')
