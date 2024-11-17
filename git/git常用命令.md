@@ -12,7 +12,31 @@ git config --global --list
 git init
 //查看目前状态
 git status
+//暂存区在.git目录里面
+//git add
+//git commit -m "版本信息"
+//历史版本
+git reflog
+git log
+//切换版本号
+git reset --hard 版本号
+
+```
+## 分支
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+```
+//创建分支
+
+//查看分支
+git branch -v
+//创建分支
+git branch  分支名
+//切换分支
+git checkout 分支名
+//修改分支
+
 ```
 
-dd
 
