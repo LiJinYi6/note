@@ -91,6 +91,7 @@ git clone 链接
 
 ### 自建代码托管平台GitLab
 用ruby语言写的
+可以用虚拟机自己搭建一个gitlab服务器
 
    
 
