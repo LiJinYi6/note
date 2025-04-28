@@ -1,0 +1,34 @@
+# 依赖目录
+node_modules/
+
+# 本地环境变量文件
+.env*.local
+.env
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 系统文件（Mac）
+.DS_Store
+
+# 编辑器/IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 构建输出目录
+dist/
+build/
+out/
+coverage/
+
+# 包管理器锁文件（可根据项目需要保留一个）
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 临时文件
+*.tmp
+*.bak

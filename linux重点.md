@@ -26,3 +26,6 @@ ai要考（三种模式）
 3.2.4（字符串过滤命令）4分
 软件包管理工具（两个）（升级机制）
 3.2.1 cd命令（p53）
+
+openUniqueUserSubmit: false,
+        uniqueUserStr: '',
