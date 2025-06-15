@@ -7,5 +7,8 @@
     "eslint-plugin-vue": "^10.0.0",
     "globals": "^16.0.0",
     "typescript-eslint": "^8.31.0"
+  },
+  "dependencies": {
+    "pnpm": "^10.11.0"
   }
 }
