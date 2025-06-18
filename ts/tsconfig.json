@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",                       
+    "module": "es6",                        
+    "outDir": "./dist",                     
+    "rootDir": "./src",                     
+    "strict": true,                         
+    "sourceMap" :true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "es6"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
